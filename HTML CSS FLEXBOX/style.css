@@ -1,0 +1,40 @@
+/******
+*CSS GLOBAL
+************/
+body {
+  font-family: "Urbanist", sans-serif;
+
+}
+/******
+*CSS pAR SECTION 
+************/
+#voyage {
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+
+#voyage img {
+    width: 30%;
+}
+#photo {
+list-style: none;
+padding-left: 0;
+text-align: center;
+display: flex;
+justify-content: space-between;
+
+}
+
+#photo li  {
+    width: 30%;
+
+}
+#photo li img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  
+
+}
+
