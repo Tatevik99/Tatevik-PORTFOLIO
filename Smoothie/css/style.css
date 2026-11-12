@@ -1,0 +1,118 @@
+/**********************
+CSS GLOBALES
+*****************/
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+/**********************
+CLASS GLOBALES
+*****************/
+.container {
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0, 15px;
+}
+/**********************
+STYLE PAR SECTION 
+*****************/
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/detoxcuresmoothie.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px 0;
+    
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+header nav img {
+   width: 100px;
+}
+header nav ul {
+    display: flex;
+   
+}
+header nav ul li {
+    margin-left: 20px;
+}
+header h1 {
+    text-align: center;
+
+            font-family: "Playfair Display", serif;
+            font-size: 40px;
+            letter-spacing: 5x;
+            margin: 150px 0;
+        }
+ 
+ h2 {
+    text-align: center;
+
+ }       
+  p {
+    text-align: center;
+  }
+  main #devis  {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+   
+  }
+  main #devis img {
+    width: 250px;
+    margin-right: 50px;
+  }
+  main #fabrication {
+    background-image: linear-gradient(#FEB4C3 , #F59E28);
+    padding: 40px, 0;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+  }
+
+ main #fabrication article {
+            margin-top: 50p;
+        }
+
+ main #concept ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+ }   
+ main #concept ul li  {
+   width: 30%;
+ }
+ footer {
+    background-color: #F59E28;
+    text-align: center;
+    color: white;
+   padding: 20px;
+   margin-top: 40px;
+ }
+
+ /********************
+     RESPONSIVE
+ ***********************/
+ @media (max-width:767px){
+    main #concept ul li {
+      width: 100%;  
+    }
+
+    main #devis {
+       flex-direction: column;
+       text-align: center;
+ }
+ main #devis img {
+    margin-right: 0;
+
+
+}
+ }
