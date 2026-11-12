@@ -1,0 +1,103 @@
+/****************************
+        CSS GLOBAL
+
+***************************/
+body {
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+h1 h2  {
+    font-family: "Amatic SC",cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+/****************************
+        CSS PAR SECTION 
+
+***************************/
+header {
+    background-image:url(img/pyramides.jpeg);
+    text-align: cover;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    padding:150px 50px;
+}
+   
+
+header h1 {
+    
+    font-size: 70px;
+    margin: 0 ;
+    
+}
+
+header a {
+    color:white;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+
+}
+#info img{
+    width: 30%;
+    margin-right: 30px;
+}
+#abonnements {
+    text-align: center;
+
+}
+#abonnements ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#abonnements li {
+    width: 30%;
+}
+
+
+#abonnements ul li {
+    border:1px solid darksalmon;
+    width: calc(30% -40px);
+    padding: 20px;
+   
+}
+#abonnements ul li p:first-of-type {
+    color:darksalmon;
+}
+
+#abonnements ul li p sup {
+    font-size: 15px;
+    color:black;
+
+}
+#concept {
+    display: flex;
+    align-items: center;
+}
+#concept img {
+    width: 30%;
+    margin-left: 5%;
+    
+}
+#concept a {
+    color:darksalmon;
+    text-decoration: none;
+    border: 1px solid darksalmon;
+    padding: 10px;
+    display: inline-block;
+}
+#concept a:hover {
+    background-color: darksalmon;
+    color: white;
+
+}
